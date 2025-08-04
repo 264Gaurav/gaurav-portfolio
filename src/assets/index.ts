@@ -7,6 +7,24 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import ios from "./ios.png";
+import generativeai from "./generativeai.png";
+import mlops from "./mlops.png";
+import langchain from "./langchain.png";
+import airflow from "./airflow.png";
+import dagshub from "./dagshub.png";
+import dvc from "./dvc.png";
+import huggingface from "./huggingface.png";
+import openai from "./openai.png";
+import gemini from "./gemini.png";
+import grok from "./grok.png";
+import mlflow from "./mlflow.png";
+import ollama from "./ollama.png";
+import pinecone from "./pinecone.png";
+import socket from './socket-io.png'
+import webrtc from './web-rtc.png';
+
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -59,4 +77,20 @@ export {
   carrent,
   jobit,
   tripguide,
+  ios,
+  generativeai,
+  mlops,
+  langchain,
+  airflow,
+  dagshub,
+  dvc,
+  huggingface,
+  openai,
+  gemini,
+  grok,
+  mlflow,
+  ollama,
+  pinecone,
+  socket,
+  webrtc
 };

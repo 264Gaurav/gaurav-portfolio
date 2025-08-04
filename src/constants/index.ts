@@ -10,7 +10,9 @@ import type {
 import {
   mobile,
   backend,
-  creator,
+  ios,
+  langchain,
+  mlops,
   web,
   javascript,
   typescript,
@@ -25,6 +27,7 @@ import {
   figma,
   docker,
   meta,
+  generativeai,
   starbucks,
   tesla,
   shopify,
@@ -51,20 +54,24 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Web/React Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "iOS Developer",
+    icon: ios,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AI/MLOps Enthusiast",
+    icon: generativeai,
+  },
+  {
+    title: "Reseach Engineer(Innovation)",
+    icon: meta,
   },
 ];
 
@@ -120,6 +127,26 @@ const technologies: TTechnology[] = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Swift",
+    icon: ios,
+  },
+  {
+    name: "Gen-AI",
+    icon: generativeai,
+  },
+  {
+    name: "MLOps",
+    icon: mlops,
+  },
+  {
+    name: "LangChain",
+    icon: langchain,
+  },
+  {
+    name: "LangGraph",
+    icon: langchain,
   },
 ];
 
